@@ -231,3 +231,98 @@
 [2024-07-06 00:35:25,470] INFO in app: 192.168.128.183 - - PING:	446011009694	1720193725	/
 [2024-07-06 00:35:25,478] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 00:35:25] "GET / HTTP/1.1" 200 -
 [2024-07-06 00:35:25,604] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 00:35:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-07-06 01:24:43,940] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 01:24:43,978] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.128.183:18000
+[2024-07-06 01:24:43,978] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-07-06 01:24:43,985] INFO in _internal:  * Restarting with stat
+[2024-07-06 01:24:44,203] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 01:24:44,208] WARNING in _internal:  * Debugger is active!
+[2024-07-06 01:24:44,218] INFO in _internal:  * Debugger PIN: 949-249-871
+[2024-07-06 01:25:49,227] INFO in app: 192.168.128.183 - - PING:	013579759782	1720196749	/
+[2024-07-06 01:25:49,234] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 01:25:49] "GET / HTTP/1.1" 200 -
+[2024-07-06 03:47:00,496] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 03:47:36,310] INFO in app: 192.168.128.183 - - PING:	001343095346	1720205256	/
+[2024-07-06 03:47:36,314] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 03:47:36] "GET / HTTP/1.1" 200 -
+[2024-07-06 03:48:56,818] INFO in app: 192.168.128.183 - - PING:	866900080292	1720205336	/
+[2024-07-06 03:48:56,818] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 03:48:56] "GET / HTTP/1.1" 200 -
+[2024-07-06 03:48:58,552] INFO in app: 192.168.128.183 - - PING:	659550260624	1720205338	/
+[2024-07-06 03:48:58,553] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 03:48:58] "GET / HTTP/1.1" 200 -
+[2024-07-06 03:49:42,950] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 03:49:42,985] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.128.183:18000
+[2024-07-06 03:49:42,986] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-07-06 03:49:42,995] INFO in _internal:  * Restarting with stat
+[2024-07-06 03:49:43,340] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 03:49:43,347] WARNING in _internal:  * Debugger is active!
+[2024-07-06 03:49:43,370] INFO in _internal:  * Debugger PIN: 949-249-871
+[2024-07-06 03:49:45,166] INFO in app: 192.168.128.183 - - PING:	610579877012	1720205385	/
+[2024-07-06 03:49:45,175] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 03:49:45] "GET / HTTP/1.1" 200 -
+[2024-07-06 03:50:05,990] INFO in app: 192.168.128.183 - - PING:	986318922501	1720205405	/
+[2024-07-06 03:50:05,991] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 03:50:05] "GET / HTTP/1.1" 200 -
+[2024-07-06 03:50:18,573] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 03:50:18,603] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.128.183:18000
+[2024-07-06 03:50:18,604] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-07-06 03:50:18,610] INFO in _internal:  * Restarting with stat
+[2024-07-06 03:50:18,828] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 03:50:18,833] WARNING in _internal:  * Debugger is active!
+[2024-07-06 03:50:18,844] INFO in _internal:  * Debugger PIN: 949-249-871
+[2024-07-06 03:50:20,302] INFO in app: 192.168.128.183 - - PING:	375265656925	1720205420	/
+[2024-07-06 03:50:20,309] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 03:50:20] "GET / HTTP/1.1" 200 -
+[2024-07-06 03:52:23,137] INFO in app: 192.168.128.183 - - PING:	282833379722	1720205543	/
+[2024-07-06 03:52:23,138] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 03:52:23] "GET / HTTP/1.1" 200 -
+[2024-07-06 04:10:04,887] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 04:10:04,921] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.128.183:18000
+[2024-07-06 04:10:04,921] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-07-06 04:10:04,928] INFO in _internal:  * Restarting with stat
+[2024-07-06 04:10:05,144] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 04:10:05,149] WARNING in _internal:  * Debugger is active!
+[2024-07-06 04:10:05,161] INFO in _internal:  * Debugger PIN: 949-249-871
+[2024-07-06 04:10:11,166] INFO in app: 192.168.128.183 - - PING:	005795330912	1720206611	/
+[2024-07-06 04:10:11,172] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 04:10:11] "GET / HTTP/1.1" 200 -
