@@ -2,11 +2,30 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/output.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Default{% endblock %}</title>
 </head>
 <body>
+    <header class="bg-blue-500 flex justify-between items-center p-6">
+        <div class="flex items-center">
+        <div class="text-white font-bold text-2xl">My Blog</div>
+        <nav class="ml-5">
+                <ul class="flex space-x-5">
+                    <li class="hover:text-gray-200"><a href="/">Home</a></li>
+                    <li class="hover:text-gray-200"><a href="/about">About</a></li>
+                    <li class="hover:text-gray-200"><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+  <div class="flex items-center space-x-2">
+    <input type="text" placeholder="記事検索" class="p-2 border rounded">
+    <button class="bg-gray-600 text-white py-2 px-4 rounded">ログイン</button>
+    <button class="bg-gray-700 text-white py-2 px-4 rounded">新規登録</button>
+  </div>
+    </header>
     {% block content %}
+
 
     {% endblock %}
     

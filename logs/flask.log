@@ -326,3 +326,97 @@
 [2024-07-06 04:10:05,161] INFO in _internal:  * Debugger PIN: 949-249-871
 [2024-07-06 04:10:11,166] INFO in app: 192.168.128.183 - - PING:	005795330912	1720206611	/
 [2024-07-06 04:10:11,172] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 04:10:11] "GET / HTTP/1.1" 200 -
+[2024-07-06 05:45:15,713] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 05:45:15,752] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.128.183:18000
+[2024-07-06 05:45:15,752] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-07-06 05:45:15,760] INFO in _internal:  * Restarting with stat
+[2024-07-06 05:45:15,975] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 05:45:15,979] WARNING in _internal:  * Debugger is active!
+[2024-07-06 05:45:15,992] INFO in _internal:  * Debugger PIN: 949-249-871
+[2024-07-06 05:45:21,570] INFO in app: 192.168.128.183 - - PING:	863566635602	1720212321	/
+[2024-07-06 05:45:21,580] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:45:21] "GET / HTTP/1.1" 200 -
+[2024-07-06 05:45:22,802] INFO in app: 192.168.128.183 - - PING:	453989654199	1720212322	/
+[2024-07-06 05:45:22,802] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:45:22] "GET / HTTP/1.1" 200 -
+[2024-07-06 05:46:29,095] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 05:46:29,133] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.128.183:18000
+[2024-07-06 05:46:29,134] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-07-06 05:46:29,141] INFO in _internal:  * Restarting with stat
+[2024-07-06 05:46:29,366] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 05:46:29,370] WARNING in _internal:  * Debugger is active!
+[2024-07-06 05:46:29,382] INFO in _internal:  * Debugger PIN: 949-249-871
+[2024-07-06 05:46:32,197] INFO in app: 192.168.128.183 - - PING:	308874902291	1720212392	/
+[2024-07-06 05:46:32,204] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:46:32] "GET / HTTP/1.1" 200 -
+[2024-07-06 05:46:54,114] INFO in app: 127.0.0.1 - - PING:	879144434376	1720212414	/
+[2024-07-06 05:46:54,115] INFO in _internal: 127.0.0.1 - - [06/Jul/2024 05:46:54] "GET / HTTP/1.1" 200 -
+[2024-07-06 05:50:38,530] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 05:50:38,571] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.128.183:18000
+[2024-07-06 05:50:38,571] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-07-06 05:50:38,578] INFO in _internal:  * Restarting with stat
+[2024-07-06 05:50:38,800] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-07-06 05:50:38,804] WARNING in _internal:  * Debugger is active!
+[2024-07-06 05:50:38,815] INFO in _internal:  * Debugger PIN: 949-249-871
+[2024-07-06 05:50:41,627] INFO in app: 192.168.128.183 - - PING:	345138866228	1720212641	/
+[2024-07-06 05:50:41,633] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:50:41] "GET / HTTP/1.1" 200 -
+[2024-07-06 05:53:15,029] INFO in app: 192.168.128.183 - - PING:	665361164649	1720212795	/
+[2024-07-06 05:53:15,032] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:53:15] "GET / HTTP/1.1" 200 -
+[2024-07-06 05:53:15,062] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:53:15] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+[2024-07-06 05:53:16,063] INFO in app: 192.168.128.183 - - PING:	719358790763	1720212796	/
+[2024-07-06 05:53:16,064] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:53:16] "GET / HTTP/1.1" 200 -
+[2024-07-06 05:53:16,089] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:53:16] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+[2024-07-06 05:56:39,667] INFO in app: 192.168.128.183 - - PING:	931398010701	1720212999	/
+[2024-07-06 05:56:39,671] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:56:39] "GET / HTTP/1.1" 200 -
+[2024-07-06 05:56:39,709] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 05:56:39] "GET /static/css/output.css HTTP/1.1" 200 -
+[2024-07-06 09:00:33,396] INFO in app: 192.168.128.183 - - PING:	354992628706	1720224033	/
+[2024-07-06 09:00:33,403] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:00:33] "GET / HTTP/1.1" 200 -
+[2024-07-06 09:00:33,425] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:00:33] "GET /static/css/output.css HTTP/1.1" 200 -
+[2024-07-06 09:08:03,914] INFO in app: 192.168.128.183 - - PING:	859507290831	1720224483	/
+[2024-07-06 09:08:03,916] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:08:03] "GET / HTTP/1.1" 200 -
+[2024-07-06 09:08:03,943] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:08:03] "GET /static/css/output.css HTTP/1.1" 200 -
+[2024-07-06 09:24:37,786] INFO in app: 192.168.128.183 - - PING:	724273273062	1720225477	/
+[2024-07-06 09:24:37,789] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:24:37] "GET / HTTP/1.1" 200 -
+[2024-07-06 09:24:37,814] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:24:37] "GET /static/css/output.css HTTP/1.1" 200 -
+[2024-07-06 09:25:22,088] INFO in app: 192.168.128.183 - - PING:	819566788312	1720225522	/
+[2024-07-06 09:25:22,091] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:25:22] "GET / HTTP/1.1" 200 -
+[2024-07-06 09:25:22,120] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:25:22] "GET /static/css/output.css HTTP/1.1" 200 -
+[2024-07-06 09:26:42,906] INFO in app: 192.168.128.183 - - PING:	169858114612	1720225602	/
+[2024-07-06 09:26:42,910] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:26:42] "GET / HTTP/1.1" 200 -
+[2024-07-06 09:26:42,936] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:26:42] "GET /static/css/output.css HTTP/1.1" 200 -
+[2024-07-06 09:28:05,418] INFO in app: 192.168.128.183 - - PING:	393763322039	1720225685	/
+[2024-07-06 09:28:05,421] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:28:05] "GET / HTTP/1.1" 200 -
+[2024-07-06 09:28:05,449] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:28:05] "GET /static/css/output.css HTTP/1.1" 200 -
+[2024-07-06 09:28:39,136] INFO in app: 192.168.128.183 - - PING:	076273664343	1720225719	/
+[2024-07-06 09:28:39,139] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:28:39] "GET / HTTP/1.1" 200 -
+[2024-07-06 09:28:39,159] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:28:39] "GET /static/css/output.css HTTP/1.1" 200 -
