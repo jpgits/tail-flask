@@ -423,3 +423,50 @@
 [2024-07-06 09:51:17,441] INFO in app: 192.168.128.183 - - PING:	929726166538	1720227077	/
 [2024-07-06 09:51:17,443] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:51:17] "GET / HTTP/1.1" 200 -
 [2024-07-06 09:51:17,477] INFO in _internal: 192.168.128.183 - - [06/Jul/2024 09:51:17] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 -
+[2024-08-03 06:07:44,939] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-08-03 06:07:44,968] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.128.130:18000
+[2024-08-03 06:07:44,968] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-08-03 06:07:44,972] INFO in _internal:  * Restarting with stat
+[2024-08-03 06:07:45,048] INFO in app: 
+------------------------
+   program   : app.py
+   port      : 18000
+------------------------
+[2024-08-03 06:07:45,049] WARNING in _internal:  * Debugger is active!
+[2024-08-03 06:07:45,058] INFO in _internal:  * Debugger PIN: 208-787-108
+[2024-08-03 06:07:51,729] INFO in app: 127.0.0.1 - - PING:	639625384594	1722632871	/
+[2024-08-03 06:07:51,737] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 06:07:51] "GET / HTTP/1.1" 200 -
+[2024-08-03 06:07:51,766] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 06:07:51] "GET /static/css/output.css HTTP/1.1" 200 -
+[2024-08-03 06:07:51,782] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 06:07:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-08-03 18:11:11,926] INFO in app: 127.0.0.1 - - PING:	566448221800	1722676271	/
+[2024-08-03 18:11:11,943] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 18:11:11] "GET / HTTP/1.1" 200 -
+[2024-08-03 18:11:11,959] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 18:11:11] "GET /static/css/output.css HTTP/1.1" 200 -
+[2024-08-03 18:11:45,948] INFO in app: 127.0.0.1 - - PING:	336656685996	1722676305	/
+[2024-08-03 18:11:45,950] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 18:11:45] "GET / HTTP/1.1" 200 -
+[2024-08-03 18:11:45,956] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 18:11:45] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 -
+[2024-08-03 18:12:35,249] INFO in app: 127.0.0.1 - - PING:	507739714018	1722676355	/
+[2024-08-03 18:12:35,252] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 18:12:35] "GET / HTTP/1.1" 200 -
+[2024-08-03 18:12:35,264] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 18:12:35] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 -
+[2024-08-03 20:06:25,207] INFO in app: 127.0.0.1 - - PING:	212406502076	1722683185	/
+[2024-08-03 20:06:25,216] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "GET / HTTP/1.1" 200 -
+[2024-08-03 20:06:25,241] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,245] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,246] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,248] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,249] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,250] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,254] INFO in app: 127.0.0.1 - - PING:	965042830041	1722683185	/
+[2024-08-03 20:06:25,254] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "GET / HTTP/1.1" 200 -
+[2024-08-03 20:06:25,258] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,259] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,260] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,262] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,263] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[2024-08-03 20:06:25,264] INFO in _internal: 127.0.0.1 - - [03/Aug/2024 20:06:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
