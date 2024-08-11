@@ -5,12 +5,20 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    title = ["レイアウト", "なきのぷろじぇくと"]
+    title = ["レイアウト", "TapIgnore"]
     #render-template-test
     if len(sys.argv) > 1 and sys.argv[1] == 'ttt':
         return render_template('layout.html', title=title[0])
     else:
         return render_template('index.html', title=title[1])
+
+@app.route('/moves')
+def moves():
+    return render_template('moves.html')
+
+@app.route('/project')
+def project():
+    return render_template('project.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
