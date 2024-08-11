@@ -1,4 +1,20 @@
-import sys, os, time, json, pickle, io, glob, random, string
+import sys
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    title = ["レイアウト", "なきのぷろじぇくと"]
+    #render-template-test
+    if len(sys.argv) > 1 and sys.argv[1] == 'ttt':
+        return render_template('layout.html', title=title[0])
+    else:
+        return render_template('index.html', title=title[1])
+
+if __name__ == '__main__':
+    app.run(debug=True)
+"""import sys, os, time, json, pickle, io, glob, random, string
 import optparse
 import urllib
 from datetime import timedelta
@@ -42,23 +58,11 @@ from flask_login import LoginManager, login_required, login_user, logout_user, c
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 
-#--------------------
-# flask app
-#--------------------
-
 app = Flask( __name__ )
-
-#--------------------
-# favicon
-#--------------------
 
 @app.route('/favicon.ico')
 def favicon():
     return app.send_static_file('img/ghost.png')
-
-#--------------------
-# 一般ユーザ向け
-#--------------------
 
 def make_pin(size):
     return ''.join( random.choice(string.digits)for _ in range(size))
@@ -97,7 +101,6 @@ def parameter_info(pgm_name, opt):
     return '\n' + '\n'.join(msg)
 
 def parse_args():
-
     usage = 'usage: %prog --port PORT[18000]'
     op = optparse.OptionParser(usage=usage)
     op.add_option('--port', dest='port', default='18000')
@@ -111,3 +114,4 @@ if __name__=='__main__':
     app.config['TEMPLATES_AUTO_RELOAD'] = True
     app.logger.info(parameter_info(os.path.basename(__file__), opt))
     app.run(host='0.0.0.0', port=opt.port, debug=True)
+"""
