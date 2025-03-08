@@ -4,28 +4,45 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="static/css/output.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Default{% endblock %}</title>
+    <title>{% block title %}レンダーテンプレート{% endblock %}</title>
 </head>
-<body>
-  <header class="bg-blue-500 flex justify-between items-center p-6">
+<body class="flex flex-col min-h-screen">
+  <header class="flex justify-between items-center p-6 bg-blue-500">
     <div class="flex items-center">
-    <div class="text-white font-bold text-2xl">裁判判決予測サイト</div>
-    <nav class="ml-5">
-      <ul class="flex space-x-5">
-        <li class="hover:text-gray-200"><a href="/">Home</a></li>
-        <li class="hover:text-gray-200"><a href="/about">About</a></li>
-        <li class="hover:text-gray-200"><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
+      <div class="text-2xl font-bold text-white">{{ title }}</div>
+      <nav class="ml-5">
+        <ul class="flex space-x-10">
+          <li class="hover:text-gray-200"><a href="/">Home</a></li>
+          <li class="hover:text-gray-200"><a href="/about">About</a></li>
+          <li class="hover:text-gray-200"><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
     <div class="flex items-center space-x-2">
-      <input type="text" placeholder="検索" class="p-2 border rounded">
-      <button class="bg-gray-600 text-white py-2 px-4 rounded">ログイン</button>
-      <button class="bg-gray-700 text-white py-2 px-4 rounded">新規登録</button>
+      <input type="text" placeholder="検索" class="p-2 rounded border">
+      <button class="px-4 py-2 text-white bg-gray-600 rounded">ログイン</button>
+      <button class="px-4 py-2 text-white bg-gray-700 rounded">新規登録</button>
     </div>
   </header>
-  {% block content %}
-  {% endblock %}
-  
+
+  <main class="flex-grow">
+    <div class="container mx-auto mt-6 pl-2">
+      {% block content %}
+      <!-- ページ固有のコンテンツがここに入ります -->
+      {% endblock %}
+    </div>
+  </main>
+
+  <footer class="bg-gray-800 text-white p-6">
+    <div class="container mx-auto">
+      <div class="flex justify-between items-center">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-gray-400">プライバシーポリシー</a>
+          <a href="#" class="hover:text-gray-400">利用規約</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

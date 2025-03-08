@@ -1,7 +1,20 @@
 {% extends "layout.html" %}
 
-{% block title %}裁判判決予測サイト{% endblock %}
+{% block title %}{{ title }}{% endblock %}
 
 {% block content %}
-<p class="text-2xl font-bold">HEAD</p>
+<div class="text-center">
+    <h1 class="text-6xl font-bold text-gray-900"></h1>
+    <p class="text-right"></p>
+    <a href="{{ url_for('moves') }}" class="text-base text-white bg-blue-500 px-4 py-2 mt-4 inline-block rounded hover:bg-blue-700">
+        今までの作品
+    </a>
+    
+    <p></p>
+    <a href="{{ url_for('project') }}" class="text-base text-white bg-blue-500 px-4 py-2 mt-4 inline-block rounded hover:bg-blue-700">
+        これからの作品
+    </a>
+    
+</div>
+
 {% endblock %}
